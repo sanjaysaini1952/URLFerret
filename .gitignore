@@ -1,4 +1,7 @@
+urlferret
 urlferret.exe
+urlferret-linux-*
+urlferret-windows-*
 urlflux.exe
 *.exe
 *.test
