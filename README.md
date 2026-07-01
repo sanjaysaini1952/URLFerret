@@ -13,8 +13,21 @@ go install github.com/sanjaysaini1952/URLFerret@latest
 ```bash
 git clone https://github.com/sanjaysaini1952/URLFerret.git
 cd URLFerret
+
+# Linux
+go build -o urlferret .
+
+# Windows
 go build -o urlferret.exe .
+
+# Or use make
+make build          # auto-detects OS
+make build-linux
+make build-windows
 ```
+
+### Prebuilt binaries
+Download from [releases](https://github.com/sanjaysaini1952/URLFerret/releases).
 
 ## Usage
 
